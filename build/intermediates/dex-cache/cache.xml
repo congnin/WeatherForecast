@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_3cc8044e139ff3935e7b67c9c9f286d4a8bc44e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_78ed130b5818e1703af9c93a0f16325c16a87d4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.2.0_e05910bcfff1388cd7f43b9e27dd5c9240f8c60a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.2.0_4ce7bebdb6e2d7c2b13b916b0123e0e7ddb1d002/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_54a1a08474a99ed1f7d076e53247e008be5f594a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_acf2b1f65c6f2ffbda776e4e737d9e84fd5b22e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_37b2d24582c9b7d51f83a0f3936eb11f44cd1dbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_4455e9b959da801de32dcc2f8bf7ba55916ed2e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_be643c979a9384359c386fa9cb6e4b74e8217943/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.5.2/ecf534dba3a8446ce84cbb797d314763be212a68/glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.5.2_2cc81d588a47f417d652a6d694f52838bb88b13e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="007fee1802dcae49eebc2f9caf1ea9d877bfdbc9">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_15eb1eb340e25dfc008ba507130599a8e17ab111/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_ceef96e10aabb97a377d184661ba37eb7aca534a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c1c44672010b6847f3744ec3702624d8d16c240">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.1.1_39bbe4f2b7dea2c268affddf0bfbc39973fa5dd1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_0e44a19fe4d84dcfd23049aa2cafb30cf02565bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_845cc7756219e02803cf6dc227a437be090b26ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_16f4d4db5cbb681b41c21a1d3d2334efcb0bd431/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_111d1143140bfe6c622e29f899d814cc9fc00631/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_794f124e1def73e24d5e19cfb533f2523fe55167/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_02c9938ccff2b459f41d43ed32106e17833e527c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="22f139f4de66c0bc786c176b4c16604e580028a0">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d5dab89e7cf3dd8758da6be2394bbae3399122bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_a8322963d54f6332fe3144684a6e85f8ee26a33d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.2.0_f2f9213746e766fc44febe1cc5552d5cb0c27337/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_d8f348cb0c1bb54a2e75039f006ed1a841dd60e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/congnc/Downloads/WeatherForecast/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_948fcc2de045506078205e7ba914f3e494ab442c/classes.dex" />
+    </item>
+
+</items>
