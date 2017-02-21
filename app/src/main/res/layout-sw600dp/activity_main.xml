@@ -10,6 +10,7 @@
 
     <fragment
         android:id="@+id/fragment_forecast"
+        android:name="com.blablaing.android.weatherforecast.ForecastFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="2"
