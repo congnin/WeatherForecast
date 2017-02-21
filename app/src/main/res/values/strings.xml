@@ -1,5 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Weather Forecast</string>
+    <string name="facebook_app_id">177798519379986</string>
     <string name="action_settings">Settings</string>
     <string name="action_map">Map Location</string>
     <string name="action_share">Share</string>
@@ -12,7 +13,7 @@
 
     <string name="pref_location_key" translatable="false">location</string>
 
-    <string name="pref_location_default" translatable="false">94043</string>
+    <string name="pref_location_default" translatable="false">QuyNhon</string>
 
     <string name="pref_units_label">Temperature Units</string>
 

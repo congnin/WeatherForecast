@@ -6,13 +6,16 @@ import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.text.format.Time;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 
 import com.blablaing.android.weatherforecast.BuildConfig;
+import com.blablaing.android.weatherforecast.R;
 import com.blablaing.android.weatherforecast.data.WeatherContract;
 
 import org.json.JSONArray;
@@ -237,6 +240,11 @@ public class WeatherService extends IntentService {
 
         locationCursor.close();
         return locationId;
+    }
+
+    private void notifyWeather() {
+        Context context = getApplicationContext();
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
     }
 
     public static class AlarmReceiver extends BroadcastReceiver {

@@ -1,5 +1,6 @@
 package com.blablaing.android.weatherforecast;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -17,8 +18,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.blablaing.android.weatherforecast.data.WeatherContract;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareDialog;
 
 /**
  * Created by congnc on 2/21/17.
@@ -95,6 +99,38 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
         return rootView;
     }
 
+    private void finishCreatingMenu() {
+        if (ShareDialog.canShow(ShareLinkContent.class)) {
+            ShareDialog shareDialog = new ShareDialog(this);
+            ShareLinkContent linkContent = new ShareLinkContent.Builder()
+                    .setContentTitle(FORECAST_SHARE_HASHTAG)
+                    .setContentTitle(mForecast)
+                    .setContentUrl(Uri.parse("http://developers.facebook.com/android"))
+                    .build();
+
+            shareDialog.show(linkContent);
+        }
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        if (getActivity() instanceof DetailActivity) {
+            inflater.inflate(R.menu.detailfragment, menu);
+        }
+        super.onCreateOptionsMenu(menu, inflater);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.action_share) {
+
+            finishCreatingMenu();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         getLoaderManager().initLoader(DETAIL_LOADER, null, this);
@@ -155,7 +191,6 @@ public class DetailFragment extends Fragment implements LoaderManager.LoaderCall
             mPressureView.setText(getActivity().getString(R.string.format_pressure, pressure));
 
             mForecast = String.format("%s - %s - %s/%s", dateText, description, high, low);
-
         }
     }
 
