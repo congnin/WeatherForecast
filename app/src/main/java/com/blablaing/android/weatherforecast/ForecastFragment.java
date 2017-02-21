@@ -12,6 +12,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -28,13 +30,13 @@ import com.blablaing.android.weatherforecast.service.WeatherService;
  * Created by congnc on 2/20/17.
  */
 
-public class ForecastFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor> {
-    private ListView mListView;
-
+public class ForecastFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
+        ForecastAdapter.ForecastAdapterOnClickHandler {
+    private ForecastAdapter mForecastAdapter;
+    private RecyclerView mRecyclerView;
     private int mPosition = ListView.INVALID_POSITION;
     private boolean mUseTodayLayout;
 
-    private ForecastAdapter mForecastAdapter;
     private static final int FORECAST_LOADER = 0;
 
     private static final String[] FORECAST_COLUMNS = {
@@ -58,6 +60,13 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
     static final int COL_WEATHER_CONDITION_ID = 6;
     static final int COL_COORD_LAT = 7;
     static final int COL_COORD_LONG = 8;
+
+    @Override
+    public void onClick(Long date, ForecastAdapter.ForecastAdapterViewHolder vh) {
+        String locationSetting = Utility.getPreferredLocation(getActivity());
+        ((Callback) getActivity()).onItemSelected(WeatherContract.WeatherEntry.buildWeatherLocationWithDate(
+                locationSetting, date));
+    }
 
     public interface Callback {
         public void onItemSelected(Uri dateUri);
@@ -86,27 +95,15 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        mForecastAdapter = new ForecastAdapter(getActivity(), null, 0);
         View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-        mListView = (ListView) rootView.findViewById(R.id.listview_forecast);
-        mListView.setAdapter(mForecastAdapter);
+        mRecyclerView = (RecyclerView) rootView.findViewById(R.id.recyclerview_forecast);
 
-        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Cursor cursor = (Cursor) parent.getItemAtPosition(position);
-                if(cursor != null){
-                    String locationSetting = Utility.getPreferredLocation(getActivity());
-                    ((Callback)getActivity())
-                            .onItemSelected(WeatherContract.WeatherEntry.buildWeatherLocationWithDate(
-                                    locationSetting, cursor.getLong(COL_WEATHER_DATE)
-                            ));
-                }
-                mPosition = position;
-            }
-        });
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        mRecyclerView.setHasFixedSize(true);
+        mForecastAdapter = new ForecastAdapter(getActivity(), this);
 
+        mRecyclerView.setAdapter(mForecastAdapter);
         mForecastAdapter.setUseTodayLayout(mUseTodayLayout);
 
         return rootView;
@@ -160,7 +157,7 @@ public class ForecastFragment extends Fragment implements LoaderManager.LoaderCa
         mForecastAdapter.swapCursor(null);
     }
 
-    public void setUseTodayLayout(boolean useTodayLayout){
+    public void setUseTodayLayout(boolean useTodayLayout) {
         mUseTodayLayout = useTodayLayout;
         if (mForecastAdapter != null) {
             mForecastAdapter.setUseTodayLayout(mUseTodayLayout);
